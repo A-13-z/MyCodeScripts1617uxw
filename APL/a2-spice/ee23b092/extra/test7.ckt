@@ -1,0 +1,8 @@
+.circuit
+v1 1 0 dc 15
+r1 1 0 2200
+r2 1 2 3300   
+r3 2 0 150
+.end
+
+#a valid circuit

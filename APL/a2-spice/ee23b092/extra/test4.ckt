@@ -1,0 +1,6 @@
+# missing voltage source
+
+.circuit
+R1   1   2     1
+R2   2 GND     1
+.end

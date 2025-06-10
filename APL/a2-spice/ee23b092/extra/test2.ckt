@@ -1,0 +1,6 @@
+#missing voltage value
+.circuit
+V1   1 GND  dc 
+R1   1   2     1
+R2   2 GND     1
+.end

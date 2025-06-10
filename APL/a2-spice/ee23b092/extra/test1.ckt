@@ -1,0 +1,6 @@
+.circuit
+V1 n1 GND dc 10
+V2 n1 GND dc 5
+V3 n1 GND dc 7  #parallel connection of voltage sources
+V4 GND n1 dc 6
+.end

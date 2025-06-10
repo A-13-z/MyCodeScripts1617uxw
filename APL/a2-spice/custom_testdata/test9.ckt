@@ -1,0 +1,5 @@
+.circuit
+I1 GND n1 3
+.end
+
+#single current source

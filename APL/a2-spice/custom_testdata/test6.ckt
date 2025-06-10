@@ -1,0 +1,7 @@
+.circuit
+V1 n1 GND dc 10
+L1 n1 n2 3
+R1 n2 GND 2
+.end
+
+#testing for invalid components

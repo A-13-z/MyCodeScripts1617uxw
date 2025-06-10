@@ -1,0 +1,6 @@
+#checking if the code takes into account the polarity of voltage sources
+.circuit
+V1 1 GND dc 3
+V2 1 2 dc 2
+R1 2 GND 5
+.end

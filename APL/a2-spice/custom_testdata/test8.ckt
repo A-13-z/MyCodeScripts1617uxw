@@ -1,0 +1,5 @@
+.circuit
+V1 n1 GND dc 5
+.end
+
+#one voltage source

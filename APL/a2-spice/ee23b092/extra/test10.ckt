@@ -1,0 +1,7 @@
+.circuit
+V1 1 GND dc 3
+V2 2 1 dc 2
+R1 2 GND 5
+.end
+
+# multiple voltage sources in the same branch
