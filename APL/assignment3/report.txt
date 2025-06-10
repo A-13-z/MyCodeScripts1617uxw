@@ -1,0 +1,14 @@
+## Estimating all 4 unknowns using curve_fit
+
+Since the boltzmann constant and temperature could not be separated, I took the product as a single unknown parameter.
+I set the initial estimates as the actual values as otherwise I was getting overflow error or I was getting a straight line.
+This was especially so for d2.txt and d4.txt where the noise was significant. Then, using trial-and-error I found the optimal initial parameters.
+The parameters are already given in the .ipynb file (just need to run it). The error in the estimates was in the 3rd significant place for d1.txt.
+The error in the estimates was very huge in d2.txt and d4.txt (almost 10%).
+
+## Estimating each of the unknowns using partial application
+Since the boltzmann constant and temperature could not be separated, I took the product as a single unknown parameter.
+I set all the other parameters to their actual values (except for the target variable) and got a fair estimate for each of the unknowns.
+The error was lesser than the previous case and for the noisy data the error was less than 3%.
+
+The estimates and figures are in the .ipynb file. Running the file will give the outputs.
